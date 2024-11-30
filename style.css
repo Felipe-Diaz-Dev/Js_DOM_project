@@ -19,11 +19,20 @@ body{
     padding: 1rem;
     background-color:#AFAFAF;
     border: none;
-    border-radius: 1rem;
+    border-radius: 1rem;  
+}
+
+.button_style:hover{
+    background-color: #ebe8e8;
 }
 
 .delete-btn{
+    cursor: pointer;
     margin-left: 1rem;
+}
+
+.edit-btn{
+    cursor: pointer;
 }
 
 #list_manager{
